@@ -3,6 +3,6 @@ require.config({
         hydra:'libs/hydra'
     }
 });
-define(['hydra', 'libs/modules/module'], function (Hydra) {
+define(['hydra', 'modules/module'], function (Hydra) {
     console.log(Hydra.version);
 });
